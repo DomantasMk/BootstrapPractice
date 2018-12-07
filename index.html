@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link rel="stylesheet" type="text/css" href="Styles.css">
+	<title></title>
+</head>
+<body>
+	<!-- NavBar -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">Practice page</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#About">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#build">SomeRandomInfo</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contacts">Contacts</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- Image slide -->
+	<div id="slides" class="carousel slide" data-ride="carousel">
+		<ul class="carousel-indicators">
+			<li data-target="#slides" data-slide-to="0" class="active"></li>
+			<li data-target="#slides" data-slide-to="1"></li>
+			<li data-target="#slides" data-slide-to="2"></li>
+		</ul>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="Pics/BG_1.jpg" class="img">
+				<div class="carousel-caption">
+					<h1 class="display-2">Bootstrap</h1>
+					<h3>Complete Website Layout</h3>
+					<button type="button" class="btn btn-outline-light btn-lg">View DEMO</button>
+					<button type="button" class="btn btn-primary btn-lg">Get Started</button>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="Pics/BG_2.jpg" class="img">
+			</div>
+			<div class="carousel-item">
+				<img src="Pics/BG_3.jpg" class="img">
+			</div>
+		</div>
+	</div>
+	<!--Jumbotron -->
+	<div class="container-fluid">
+		<div class="row jumbotron">
+			<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+				<p class="lead">
+					Lots of text text text text text text text texttext text text text text text text texttext text text text text text text texttext text text text text text text texttext text text text text text text texttext text text text text text text texttext text text text text text text text
+				</p>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+				<a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">Button</button></a>
+			</div>
+		</div>
+	</div>
+	<!--Welcome-->
+	<div class="container-fluid padding" id="About">
+		<div class="row welcome text-center">
+			<div class="col-12">
+				<h1 class="display-4">Built with Bootstrap 4</h1>
+			</div>
+			<hr>
+			<div class="col-12">
+				<p class="lead">Built with Bootstrap blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah </p>
+			</div>
+		</div>
+	</div>
+	<!-- Three column section -->
+	<div class="container-fluid padding">
+		<div class="row text-center padding">
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				<i class="fas fa-code"></i>
+				<h3>HTML5</h3>
+				<p>Built with the latest version of HTML, HTML5.</p>
+
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				<i class="fas fa-bold"></i>
+				<h3>BOOTSTRAP</h3>
+				<p>Built with the latest version of Bootstrap, Bootstrap4.</p>
+
+			</div>
+			<div class="col-sm-12 col-md-4">
+				<i class="fab fa-css3"></i>
+				<h3>CSS3</h3>
+				<p>Built with the latest version of CSS, CSS3.</p>
+
+			</div>
+		</div>
+		<hr class="my-4">
+	</div>
+	<!-- Two column section -->
+	<div class="container-fluid padding" id="build">
+		<div class="row padding">
+			<div class="col-lg-6">
+				<h2>If you build it...</h2>
+				<p>The columns will automatically stack on top of each other when the screen is less than 576 px wide.</p>
+				<p>Resize the browser window to see the effect. Responsive web design has become more important as the amount of mobile traffic now accounts for more than half of total internet traffic.</p>
+				<p>It can also display the web page differently depending on the screen size or viewing device.</p>
+				<br>
+				<a href="#" class="btn btn-primary">Learn More</a>
+			</div>
+			<div class="col-lg-6">
+				<img src="Pics/FT_1.jpg" class="img-fluid">
+			</div>
+		</div>
+	</div>
+	<!-- Fixed background -->
+	<hr class="my-4">
+	<figure>
+		<div class="fixed-wrap">
+			<div id="fixed">
+			</div>
+			
+		</div>
+	</figure>
+	<hr class="my-4">
+	<!-- Connect -->
+	<div class="container-fluid padding" id="contacts">
+		<div class="row text-center padding">
+			<div class="col-12">
+				<h2>Connect</h2>
+				<p>(Since it's a test page, the icons are just for show, but can be easily be upgraded with a link)</p>
+			</div>
+			<div class="col-12 social padding">
+				<a href="#"><i class="fab fa-facebook"></i></a>
+				<a href="#"><i class="fab fa-twitter"></i></a>
+				<a href="#"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#"><i class="fab fa-instagram"></i></a>
+				<a href="#"><i class="fab fa-youtube"></i></a>
+			</div>
+		</div>
+	</div>
+	<!--footer-->
+	<footer>
+		<div class="container-fluid padding">
+			<div class="row text-center">
+				<div class="col-md-4">
+					<h1>Logo</h1>
+					<hr class="light">
+					<p>+370*******</p>
+					<p>Domantas.Mikelionis@gmail.com</p>
+					<p>Street name</p>
+					<p>City, Country</p>
+				</div>
+				<div class="col-md-4">
+					<hr class="light">
+					<h5>Our hours</h5>
+					<hr class="light">
+					<p>Monday: 9am - 5pm</p>
+					<p>Saturday: 10am - 4pm</p>
+					<p>Sunday: closed</p>
+				</div>
+				<div class="col-md-4">
+					<hr class="light">
+					<h5>Service area</h5>
+					<hr class="light">
+					<p>Area</p>
+					<p>Area</p>
+					<p>Area</p>
+				</div>
+				<div class="col-12">
+					<hr class="light-100">
+					<h5>&copy; mywebsite.com</h5>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
